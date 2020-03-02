@@ -106,8 +106,8 @@ STATIC_URL = '/static/'
 
 
 if DEBUG:
-    PAYTM_MERCHANT_KEY = "7DDE7bV8!sqvd5v%"
-    PAYTM_MERCHANT_ID = "jbVfkk18021459556153"
+    PAYTM_MERCHANT_KEY = "yourmerchantkey"
+    PAYTM_MERCHANT_ID = "yourMERCHANT_ID"
     PAYTM_WEBSITE = 'WEBSTAGING'
     HOST_URL = 'http://127.0.0.1:9090'
     PAYTM_CALLBACK_URL = "/paytm/response/"
